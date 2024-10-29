@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="playAudio()">
+    
+    <audio id="background-audio" src="25 - MONTAGEM - SAX.mp3" autoplay loop>
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+    <!-- Primeira imagem, que será sobreposta -->
+    <img src="https://media.tenor.com/9_eCjM9jn_UAAAAj/baby-ilya.gif" alt="" class="overlay-image">
+    <img src="https://media.tenor.com/2dDphJMqjnkAAAAi/tyler-the-creator-cringe.gif" alt="" class="overlay-image3">
+    <p >Quer namorar comigo?</p>
+    <img src="https://media.tenor.com/l9iHVDHeXE0AAAAi/tyler-the-creator-igor.gif" alt="" class="overlay-image4">
+    <img src="https://media.tenor.com/f6oxXKAdyK0AAAAi/baby-dancing.gif" alt="" class="overlay-image2">
+    <script>
+        // Função para reproduzir o áudio
+        function playAudio() {
+            const audio = document.getElementById("background-audio");
+            audio.play();
+        }
+      </script>
+</body>
+</html>
